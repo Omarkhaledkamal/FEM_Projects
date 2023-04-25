@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  position: absolute;
+  margin: 0px auto;
+  top: 50%;
+  left: 50%;
+  height: 340px;
+  width: 265px;
+  padding: 10px;
+  font-size: 11px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  font-family: 'Cairo', sans-serif;
+  box-shadow: 0px 5px 10px 0 hsl(220, 15%, 55%);
+}
+
+.container img {
+  width: 245px;
+  height: 225px;
+  display: block;
+  border-radius: 10px;
+}
+
+.container p:first-of-type {
+  font-size: 15px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.container p:last-of-type {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
